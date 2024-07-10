@@ -1,5 +1,5 @@
 // 3212. Count Submatrices With Equal Frequency of X and Y
-// https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/
+// https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/
 
 // intution standard problem of 2D prefix sum
 // prefix interation :- prefix[i][j] = matrix[i][j] + prefix[i-1][j] + prefix[i][j-1] - prefix[i-1][j-1]
